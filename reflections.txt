@@ -1,0 +1,35 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. 
+
+	- Web development is easy to learn, there are free courses and websites to reference plus it's not so frustrating like other programing languages. 
+
+Answer the following questions:
+  
+
+	* What new skills have you learned?
+
+	* What has been easy?
+  
+	* What has been difficult?
+  
+	* How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+	
+
+Answers:
+
+	1- Paying attention to details, double checking my code.
+		(AWESOME
+		Attention to detail was a big part of this exercise and is in general a big part of developing software. 
+		Paying good attention in these first assignments is a solid way to prepare for the more challenging projects ahead.)
+	2- The project was very easy.	
+	3- Nothing was difficult.
+		(AWESOME
+		You definitely have HTML figured out. The next project is all about CSS, and then you'll start getting into coding with Javascript. 
+		I'm sure you are going to have a lot of fun with the next projects.)
+	4- I searched for the elements that i did not learn or remember taking before, the MDN website was very helpful.
+		(AWESOME
+		There really is a lot to try to remember. Just HTML5 has over 110 elements, some of which are deprecated and some of which are obsolete. So getting good at researching and finding the best documentation resources is important.
+
+		I have found that the easiest way to get what you need on MDN is google. Try something like, "mdn p tag" and it most likely show results from mdn first (it always does as far as I know). For deeper knowledge go to the HTML5 specification itself. It really isn't as bad as you might think :-).
+
+		For hands-on tools, you could take a look at sites like http://jsbin.com/. These types of sites (there are quite a few) let you write code and see the changes in real time. They are excellent tools for trying out things in HTML, CSS and JavaScript, including trying out things with jQuery and other JavaScript libraries.)

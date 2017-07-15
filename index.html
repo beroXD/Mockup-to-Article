@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humans vs Machines Blog</title>
+</head>
+
+<body>
+  <!-- This was adapted from: http://blog.udacity.com/2016/03/humans-vs-machines-an-ai-odyssey-2.html -->
+  <!-- Format this text to match the mockup exactly! -->
+  <h1>Humans vs. Machines: An AI Odyssey</h1>
+  <!-- Hi! Great job on the first heading. This exercise is all about using the semantically correct HTML tags for the job, not about styling the page using CSS. All the styles in the mockup can be replicated using the default browser styles for existing HTML tag types. So when you get the tags right, the styling will also be right.
+
+                Here is what the Udacity HTML style guide has to say about sematics:
+
+                    Use elements for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchor, etc. Using HTML according to its purpose is important for accessibility, reuse and code efficiency reasons.
+
+                For instance, heading tags are semantic in the sense that <h1> defines the most important heading and <h6> defines the least important heading (not the size of the text). Therefore it's totally appropriate that the articles headline is an <h1>. And it also looks just like the mockup. -->
+  <article>
+    <section>
+      <p>By <em><strong>Christopher Watkins</strong></em></p>
+
+      <p><time datetime="2016-03-10">March 10, 2016</time></p>
+
+      <!-- SUGGESTION
+                In your future HTML you could consider marking all dates up with a <time> tag. From MDN:
+
+                    The HTML <time> element represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information).
+
+                It could look something like this: <p><time datetime="2016-03-10">March 10, 2016</time></p>
+
+                It doesn't change the markup at all, but it does let you interact with any dates/times in you page in a predictable way using JavaScript. -->
+
+      <p><em><strong>***Breaking News: AlphaGo has won the first two matches!***</strong> In this, the third in our series on the epic Go matches being played between AlphaGo (Google’s Artificial Intelligence software) and Lee Se-Dol (Current Go World Champion), we look at the history of Humans vs. Machines, and the innovations that have led us to this incredible moment in time.</em></p>
+
+    </section>
+
+    <img src="http://i2.wp.com/blog.udacity.com/wp-content/uploads/2016/03/56df2490a351d802222160.gif" alt="Go board with Udacity logo">
+
+    <!-- SUGGESTION
+            Good job including the alt attribute. Keep in mind that this text is also for "screen readers" for the visually impaired, and so it's always good to give them a description of the image. A good description might be something like, alt="Go board with Udacity logo".
+
+            MDN also has the following tips that you can consider:
+
+                Omitting this attribute altogether indicates that the image is a key part of the content, and no textual equivalent is available. Setting this attribute to an empty string (alt="") indicates that this image is not a key part of the content, and that non-visual browsers may omit it from rendering. -->
+
+    <section>
+      <p>For as long as humans have built things, we’ve wrestled with the implications of what we’ve built. In many cases, these philosophical and ethical wrestlings have made for great drama—think Frankenstein, or 2001: A Space Odyssey. Often, the hypothetical
+        scenarios we envision come remarkably close to true, and the discoveries we’ve made in the fields of Artificial Intelligence and Machine Learning make clear that a “computer with a mind of its own” is <s>going to take over the world</s> not such
+        a fantastic thing to imagine any longer.</p>
+
+      <!-- AWESOME
+                Good use of the <s> tag.-->
+
+      <h2>The Triumph Of Deep Blue</h2>
+
+      <p>Perhaps this is why we are so captivated by human vs. machine competitions, because the idea of being overcome by that which we’ve created speaks to something very deep within our collective consciousness. When IBM’s Deep Blue faced off against
+        Garry Kasparov<sup>1</sup>, the event resulted in more than <a href="http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/" target="_blank">three billion impressions</a> around the world, and when IBM’s later creation Watson challenged
+        the champions on Jeopardy, millions of viewers were glued to the proceedings.</p>
+
+      <!-- AWESOME
+                It's easy to miss the superscript here, so great attention to detail!-->
+
+      <h2>DeepMind’s AlphaGo</h2>
+
+      <p>Taking place right now, there is an event that, while not likely to scale the same media heights, may in fact have far greater implications when it comes to the future of “intelligent” machines. On March 9, in Seoul, South Korea, a computing system
+        know as AlphoGo (built by researchers at DeepMind—a Google Artificial Intelligence lab) began <a href="http://venturebeat.com/2016/02/04/youtube-will-livestream-googles-ai-playing-go-superstar-lee-sedol-in-march/" target="_blank">a five-game match</a>        against Lee Se-dol, one of the very best players in the world at the ancient game of Go.</p>
+      <p>Why is this so significant?</p>
+      <p>Here is how the DeepMind team explained it in their paper <a href="http://airesearch.com/wp-content/uploads/2016/01/deepmind-mastering-go.pdf" target="_blank">Mastering the Game of Go with Deep Neural Networks and Tree Search</a>:</p>
+      <p><em>The game of Go has long been viewed as the most challenging of classic games for artificial intelligence due to its enormous search space and the difficulty of evaluating board positions and moves.</em></p>
+      <p>Put another way, winning at Go is a kind of Holy Grail for those who strive to create machines that can “think” on their own, because success at this uniquely complex game seems to require something more than just skill, knowledge, and experience.
+        It requires intuition. Feel. Style. Characteristics we associate with humans, not with machines.</p>
+    </section>
+    <hr>
+
+    <!-- AWESOME
+                Nice job on the hr tag. Tags that don't have any content are known as void elements and they are considered self-closing (there is nothing to go in between the opening and closing tag, so the closing tag isn't necessary). In the case of the <hr> tag, it's actually invalid HTML to close the tag, so you got it just right!
+
+                :information_source: The Udacity Style Guide requires that you do not close self-closing tags in any way (</hr> or <hr />), so in your future projects you should always only write <hr>, <img>, <input> and so on for all void elements.
+
+                :information_source: <hr> in the HTML5 Specification. https://www.w3.org/TR/html5/grouping-content.html#the-hr-element -->
+    <aside>
+      <p><sup>1</sup> Garry Kasparov is a Russian chess Grandmaster and former World Chess Champion</p>
+    </aside>
+
+    <!--AWESOME
+                Great job on the footnote. HTML does not have a dedicated mechanism for marking up footnotes, but has some suggested alternatives. For footnotes like this one the HTML5 Specification recommends wrapping them in the Aside (<aside>) element.
+
+                :information_source: From MDN:
+
+                    The HTML <aside> element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content. These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements; the biography of the author; web applications; profile information or related links on the blog.
+                It's great that you wrap the text itself in a p tag, since it is a paragraph of text :-). The <aside> tag wouldn't replace the <p> tag, it would wrap the whole thing, like so:
+
+                <aside>
+                    <p><sup>1</sup>Garry Kasparov..</p>
+                </aside> -->
+  </article>
+</body>
+
+<!--SUGGESTION
+    Because the <body> and the <head> tags are both required and always inside of the <html> element, we generally don't indent them.-->
+
+</html>
